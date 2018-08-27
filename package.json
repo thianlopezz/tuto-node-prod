@@ -1,0 +1,21 @@
+{
+  "name": "tuto-node-prod",
+  "version": "1.0.0",
+  "description": "Aplicacion basica de Node.Js para prueba de configuracion de ambiente de produccion",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon api/server.js",
+    "postinstall": "nodemon api/server.js"
+  },
+  "keywords": [
+    "Node.Js",
+    "produccion"
+  ],
+  "author": "Thian Lopez Z",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}
