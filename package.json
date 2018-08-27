@@ -4,8 +4,8 @@
   "description": "Aplicacion basica de Node.Js para prueba de configuracion de ambiente de produccion",
   "main": "server.js",
   "scripts": {
-    "start:dev": "nodemon api/server.js",
-    "postinstall": "nodemon api/server.js"
+    "start:dev": "nodemon API/server.js",
+    "postinstall": "nodemon API/server.js"
   },
   "keywords": [
     "Node.Js",
