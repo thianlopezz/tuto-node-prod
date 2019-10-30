@@ -4,6 +4,7 @@
   "description": "Aplicacion basica de Node.Js para prueba de configuracion de ambiente de produccion",
   "main": "server.js",
   "scripts": {
+    "start": "pm2 start ecosystem.config.js",
     "start:dev": "nodemon API/server.js",
     "postinstall": "nodemon API/server.js"
   },
@@ -17,5 +18,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "pm2": "^4.1.2"
   }
 }
