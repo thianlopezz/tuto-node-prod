@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "pm2 start ecosystem.config.js",
-    "start:dev": "nodemon API/server.js",
-    "postinstall": "nodemon API/server.js"
+    "start:dev": "nodemon API/server.js"
   },
   "keywords": [
     "Node.Js",
